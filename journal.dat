@@ -1,11 +1,11 @@
 ## This is the ledger data file / account data file, for the coffee
 ## club.  See the balances with:
 ##
-##    ledger -f coffee-journal.dat
+##    ledger -f coffee-journal.dat balance
 ##
 ##  And see the current club members with:
 ##
-##    awk -f current-members.awk ledger.dat
+##    awk -f current-members.awk journal.dat
 ##
 ## We use the following top level accounts:
 ##
@@ -58,7 +58,7 @@
 ##
 ##     printf '%s claim from members\n' "$(date +%Y/%m/%d)"
 ##     printf '  checking'
-##     for NAME in $(awk -f current-members.awk ledger.dat | sort); do
+##     for NAME in $(awk -f current-members.awk journal.dat | sort); do
 ##         printf '  member:%s  £-4.5\n' "$NAME"
 ##     done
 ##
@@ -699,8 +699,10 @@
 
 ; leaves finn.strivens@some.ox.ac.uk
 ; leaves sam.garforth@seh.ox.ac.uk
+; leaves carina.monico@bioch.ox.ac.uk
 
 2018/05/30
   member:sam.garforth@seh.ox.ac.uk  £4.5
   member:finn.strivens@some.ox.ac.uk  £-0.5
+  member:carina.monico@bioch.ox.ac.uk  £-2.5
   checking
