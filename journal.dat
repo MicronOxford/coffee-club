@@ -57,7 +57,7 @@
 ## entry like so:
 ##
 ##     printf '%s claim from members\n' "$(date +%Y/%m/%d)"
-##     printf '  checking'
+##     printf '  checking\n'
 ##     for NAME in $(awk -f current-members.awk journal.dat | sort); do
 ##         printf '  member:%s  £-4.5\n' "$NAME"
 ##     done
@@ -706,3 +706,28 @@
   member:finn.strivens@some.ox.ac.uk  £-0.5
   member:carina.monico@bioch.ox.ac.uk  £-2.5
   checking
+
+2018/06/15 claim from members
+  checking
+  member:adamcrolt@gmail.com  £-11.5
+  member:alexander.dallman-porter@keble.ox.ac.uk  £-11.5
+  member:ana.palanca@bioch.ox.ac.uk  £-11.5
+  member:bojana.lazovic.178@gmail.com  £-11.5
+  member:catherine.truman@trinity.ox.ac.uk  £-11.5
+  member:chao.he@jesus.ox.ac.uk  £-11.5
+  member:david.pinto@bioch.ox.ac.uk  £-11.5
+  member:diana.arman@univ.ox.ac.uk  £-11.5
+  member:d.ish-horowicz@ucl.ac.uk  £-11.5
+  member:hugh.mulvey@seh.ox.ac.uk  £-11.5
+  member:ian.dobbie@bioch.ox.ac.uk  £-11.5
+  member:ilias.kounatidis@bioch.ox.ac.uk  £-11.5
+  member:jeff.lee@sjc.ox.ac.uk  £-11.5
+  member:joshua.titlow@bioch.ox.ac.uk  £-11.5
+  member:maria.gravato-nobre@bioch.ox.ac.uk  £-11.5
+  member:marko.noerenberg@bioch.ox.ac.uk  £-11.5
+  member:michela.serena@bioch.ox.ac.uk  £-11.5
+  member:mkaythomp@gmail.com  £-11.5
+  member:nicholas.hall@dtc.ox.ac.uk  £-11.5
+  member:richard.parton@bioch.ox.ac.uk  £-11.5
+  member:sabrina.liberatori@bioch.ox.ac.uk  £-11.5
+  member:sacha.jensen@bioch.ox.ac.uk  £-11.5
