@@ -6,20 +6,6 @@
 ##
 ## CLAIMING FROM MEMBERS
 ##
-## Run ledger to find the balance in the checkings account.  Divide by
-## the number of current members and round up to the £0.5.  Generate
-## entry like so:
-##
-##     printf '%s claim from members\n' "$(date +%Y/%m/%d)"
-##     printf '  checking\n'
-##     for NAME in $(awk -f current-members.awk journal.dat | sort); do
-##         printf '  member:%s  £-4.5\n' "$NAME"
-##     done
-##
-## Each time we claim the cost for the coffee, we also claim £1 for
-## the savings accounts.  This is to be used in the longer run, to buy
-## cleaning and descaling tablets, parts, repairs, and maybe buy a new
-## machine in the future.
 ##
 ## DATES
 ##
