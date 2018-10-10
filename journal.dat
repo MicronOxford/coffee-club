@@ -807,6 +807,12 @@
   expenses:coffee  £110.82 ; 12kg coffee
   checking
 
+2018/08/22 MK bought emergency coffee
+  expenses:coffee  £9.00
+  checking  £-9.00
+  member:mkaythomp@gmail.com  £9.00
+  income  £-9.00
+
 ; leaves ana.palanca@bioch.ox.ac.uk
 
 2018/09/03 members paying
