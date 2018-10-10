@@ -3,52 +3,6 @@
 ##
 ##    ledger -f coffee-journal.dat balance
 ##
-##  And see the current club members with:
-##
-##    awk -f current-members.awk journal.dat
-##
-## We use the following top level accounts:
-##
-##
-##   * checking: this is the current balance.  We buy coffee from
-##     here, and we used to buy maintenance parts from here as well
-##     before we had a separate savings account.
-##
-##
-##   * savings: this is the account for long term expenses like parts,
-##     cleaning tablets, and repairs.
-##
-##   * member: one for each club member.  If they go negative, they
-##     own the club, if they go positive, they still have credit.  The
-##     sub-accounts use the member email address which we use as unique
-##     ids.
-##
-##   * income: where members get money to pay us.  We don't care.
-##
-## When a user leaves, his balance is moved into the checkings
-## account.  This happens often because they left the department and
-## did not notify us.  They obviously have more important things on
-## their minds at the time.  Anyway, we just forgive them their debt
-## by putting on the checkings account for everyone else to pay next
-## time.  And if they have credit, that also gets in the checkings
-## account.
-##
-## COMMENTS
-##
-## We use '; joins EMAIL' and '; leaves EMAIL' to keep track of the
-## current members in the same file.  We can then use a awk script to
-## get the number of people we should be charging:
-##
-##    {
-##        if ($0 ~ /^; joins /)
-##            members[$3] = 1;
-##        else if ($0 ~ /^; leaves /)
-##            delete members[$3];
-##    }
-##    END {
-##        for (key in members)
-##            print key;
-##    }
 ##
 ## CLAIMING FROM MEMBERS
 ##

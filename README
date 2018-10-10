@@ -1,0 +1,54 @@
+Coffee club accounts
+====================
+
+The accounting of the coffee club is managed wth the program
+[ledger](https://www.ledger-cli.org/).  To see the balances:
+
+    ledger -f coffee-journal.dat balance
+
+which should show how much credit/debt each member has, how much money
+in the savings account, and how much have we spent since ever.
+
+The associated data file `journal.dat` is a plain text file and be
+inspected easily by anyone.  Members joining and leaving the club are
+comments on the file.  To list the current club members use:
+
+    awk -f current-members.awk journal.dat
+
+
+Ledger
+------
+
+We use the following top level accounts:
+
+  * checking: this is the current balance.  We buy coffee from here,
+    and we used to buy maintenance parts from here as well before we
+    had a separate savings account.
+
+  * savings: this is the account for long term expenses like parts,
+    cleaning tablets, and repairs.
+
+  * member: one for each club member.  If they go negative, they own
+    the club, if they go positive, they still have credit.  The
+    sub-accounts use the member email address which we use as unique
+    ids.
+
+  * income: where members get money to pay us.  We don't care.
+
+When a user leaves, his balance is moved into the checkings account.
+This happens often because they left the department and did not notify
+us.  They obviously have more important things on their minds at the
+time.  Anyway, we just forgive them their debt by putting on the
+checkings account for everyone else to pay next time.  And if they
+have credit, that also gets in the checkings account and is split
+among all remaining members.
+
+Current members
+---------------
+
+We use `; joins EMAIL` and `; leaves EMAIL` comments in `journal.dat`
+to keep track of the current members.  Their email addresses are used
+as IDs.  We can then use a awk script to get the number of people we
+should be charging:
+
+    awk -f current-members.awk journal.dat | wc -l
