@@ -808,3 +808,12 @@
 2018/10/11 members paying
   member:david.pinto@bioch.ox.ac.uk  £5.5
   income
+
+; leaves bojana.lazovic.178@gmail.com
+
+2018/10/11 absorb members who left
+  member:bojana.lazovic.178@gmail.com  £19.00
+  member:ilias.kounatidis@bioch.ox.ac.uk  £1.00
+  checking
+
+; joins leon.babl@queens.ox.ac.uk
