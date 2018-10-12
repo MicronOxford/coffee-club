@@ -4,7 +4,7 @@ Coffee club accounts
 The accounting of the coffee club is managed wth the program
 [ledger](https://www.ledger-cli.org/).  To see the balances:
 
-    ledger -f coffee-journal.dat balance
+    ledger -f journal.dat balance
 
 which should show how much credit/debt each member has, how much money
 in the savings account, and how much have we spent since ever.
