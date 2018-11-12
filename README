@@ -28,7 +28,7 @@ We use the following top level accounts:
   * savings: this is the account for long term expenses like parts,
     cleaning tablets, and repairs.
 
-  * member: one for each club member.  If they go negative, they own
+  * member: one for each club member.  If they go negative, they owe
     the club, if they go positive, they still have credit.  The
     sub-accounts use the member email address which we use as unique
     ids.
