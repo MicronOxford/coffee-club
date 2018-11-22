@@ -843,3 +843,9 @@
 2018/10/25 spending
   expenses:coffee  £125.98 ; 12kg coffee
   checking
+
+; joins balvinder.hamid@bioch.ox.ac.uk
+
+2018/11/22 Balvinder pays
+  member:balvinder.hamid@bioch.ox.ac.uk  £5.00
+  income
