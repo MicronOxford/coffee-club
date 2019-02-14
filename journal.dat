@@ -902,3 +902,18 @@
 2019/02/13 wants out and is not paying
   member:ian.gibbs-seymour@bioch.ox.ac.uk  £16.50
   checking
+
+; joins david.staunton@bioch.ox.ac.uk
+; joins ana.palanca@bioch.ox.ac.uk
+; joins wael.kamel@bioch.ox.ac.uk
+
+2019/02/14 members paying
+  member:david.pinto@bioch.ox.ac.uk  £11
+  member:edward.lowe@bioch.ox.ac.uk  £11
+  member:ian.dobbie@bioch.ox.ac.uk  £11
+  member:anarita.faria@bioch.ox.ac.uk  £11
+  income
+
+2019/02/14 ian wants round numbers on his account, donates to savings
+  member:ian.dobbie@bioch.ox.ac.uk  £-0.02
+  savings  £0.02
