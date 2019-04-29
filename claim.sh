@@ -17,7 +17,7 @@ CHARGE="5.5" # TODO
 
 printf '%s claim from members\n' "$(date +%Y/%m/%d)"
 printf '  checking\n'
-printf '  savings  £%.1f\n' $N_MEMBERS
+printf '  savings  £%.1f\n' $(expr $N_MEMBERS \* 1)
 for NAME in $(awk -f current-members.awk journal.dat | sort); do
    printf '  member:%s  £-%s\n' "$NAME" "$CHARGE"
 done
