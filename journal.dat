@@ -1480,12 +1480,14 @@
   member:adamcrolt@gmail.com  £20
   income
 
-; Richard is on sick leave (so we leave its balance)
 ; leaves richard.parton@bioch.ox.ac.uk
-
 ; leaves joshua.titlow@bioch.ox.ac.uk
 
 2019/12/12 members paying
   member:georgina.brown@bnc.ox.ac.uk  £23.50
   member:ian.dobbie@bioch.ox.ac.uk  £20.0
   income
+
+2019/12/12 Distribute Richard Parton debt who has left
+  member:richard.parton@bioch.ox.ac.uk  £13.50
+  checking
