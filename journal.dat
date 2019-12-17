@@ -1516,3 +1516,39 @@
   member:samuel.east@hertford.ox.ac.uk  £20.0
   member:ondine.atwa@some.ox.ac.uk  £20.0
   income
+
+2019/12/17 spending
+  expenses:coffee  £124.99 ; 12kg coffee
+  checking
+
+2019/12/17 claim from members
+  checking
+  savings  £24.0
+  member:adamcrolt@gmail.com  £-7.5
+  member:anarita.faria@bioch.ox.ac.uk  £-7.5
+  member:barbora.schonfeldova@seh.ox.ac.uk  £-7.5
+  member:carina.monico@bioch.ox.ac.uk  £-7.5
+  member:christian.covill-cooke@bioch.ox.ac.uk  £-7.5
+  member:david.pinto@bioch.ox.ac.uk  £-7.5
+  member:david.staunton@bioch.ox.ac.uk  £-7.5
+  member:d.ish-horowicz@ucl.ac.uk  £-7.5
+  member:edward.lowe@bioch.ox.ac.uk  £-7.5
+  member:galadalias@gmail.com  £-7.5
+  member:georgina.brown@bnc.ox.ac.uk  £-7.5
+  member:ian.dobbie@bioch.ox.ac.uk  £-7.5
+  member:jeff.lee@sjc.ox.ac.uk  £-7.5
+  member:jingyu.wang@eng.ox.ac.uk  £-7.5
+  member:kate.dicker@exeter.ox.ac.uk  £-7.5
+  member:marko.noerenberg@bioch.ox.ac.uk  £-7.5
+  member:meredith.wouters@bioch.ox.ac.uk  £-7.5
+  member:mick.phillips@bioch.ox.ac.uk  £-7.5
+  member:mkaythomp@gmail.com  £-7.5
+  member:nehir.banaz@linacre.ox.ac.uk  £-7.5
+  member:nicholas.hall@dtc.ox.ac.uk  £-7.5
+  member:ondine.atwa@some.ox.ac.uk  £-7.5
+  member:samuel.east@hertford.ox.ac.uk  £-7.5
+  member:wael.kamel@bioch.ox.ac.uk  £-7.5
+
+2019/12/17 members paying
+  member:david.pinto@bioch.ox.ac.uk  £7.5
+  income
