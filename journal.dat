@@ -1556,3 +1556,8 @@
 2020/01/21 members paying
   member:d.ish-horowicz@ucl.ac.uk  £15
   income
+
+;leaves mick.phillips@bioch.ox.ac.uk
+2020/01/21 Mick leaves and takes his credit back
+  member:mick.phillips@bioch.ox.ac.uk  £-12.5
+  income
