@@ -13,7 +13,7 @@ set -e
 N_MEMBERS=`awk -f current-members.awk journal.dat | wc -l`
 BALANCE=`ledger -f journal.dat balance checking | awk '{print $2}'`
 
-CHARGE="7.5" # TODO
+CHARGE="7.0" # TODO
 
 printf '%s claim from members\n' "$(date +%Y/%m/%d)"
 printf '  checking\n'
