@@ -22,8 +22,16 @@ for member_line in p.stdout.decode().splitlines():
         email = email[len('member:'):]
     else:
         raise RuntimeError('member balance query did not return member: name')
+
     if email in current_users:
         print('%s | %.2f' % (email, credit))
+        current_users.remove(email)
     elif credit != 0.0:
         raise RuntimeError('non current member %s has credit %f'
                            % (email, credit))
+
+if len(current_users):
+    # This happens if someone has just joined and has not yet paid or
+    # been charged anything.
+    raise RuntimeError('current users %s do not appear on ledger'
+                       % current_users)
