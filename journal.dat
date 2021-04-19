@@ -1663,3 +1663,13 @@
 2021/02/26 members paying
   member:ian.dobbie@bioch.ox.ac.uk  £20.0
   income
+
+; With COVID-19, coffee club is closed.  Only Micron members who
+; already share the space drink the coffee, i.e., Ian, Rita, and
+; Jingyu.  They buy the stock of beans back from the club.
+
+2021/02/26 Ian, Rita, and Jingyu buy 6kg of beans from the club
+  member:anarita.faria@bioch.ox.ac.uk  £-21.0
+  member:ian.dobbie@bioch.ox.ac.uk  £-21.0
+  member:jingyu.wang@eng.ox.ac.uk  £-21.0
+  checking  £63.0  ; 6kg of coffee
